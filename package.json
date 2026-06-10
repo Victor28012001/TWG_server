@@ -1,0 +1,40 @@
+{
+  "name": "the-winnowing-games-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The Winnowing Games - Multiplayer Game Server",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@civic/auth": "^0.15.3",
+    "@civic/auth-web3": "^0.11.1",
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "mongoose": "^9.6.3",
+    "socket.io": "^4.5.4",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "game",
+    "multiplayer",
+    "websocket"
+  ],
+  "author": "",
+  "license": "ISC"
+}
