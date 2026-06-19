@@ -1,5 +1,5 @@
 // shared/LobbyManager.ts
-import Lobby, { LobbyState } from './Lobby';
+import Lobby, { LobbyState } from './Lobby.js';
 
 export default class LobbyManager {
     private lobbies = new Map<string, Lobby>();

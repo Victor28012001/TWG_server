@@ -2366,7 +2366,7 @@ import {
     TOKEN_PROGRAM_ID
 } from '@solana/spl-token';
 import connectDB from './config/database.js';
-import balanceService from './services/balanceService';
+import balanceService from './services/balanceService.js';
 
 dotenv.config();
 
@@ -2386,15 +2386,15 @@ declare global {
 }
 
 // Imports
-import Player from './shared/Player';
-import PlayerList from './shared/PlayerList';
-import Message from './shared/Message';
-import MessageList from './shared/MessageList';
-import RoomManager from './shared/RoomManager';
-import { ROOM_DEFINITIONS } from './shared/RoomDefinitions';
-import SpawnManager from './shared/SpawnManager';
-import LeaderboardManager from './shared/LeaderboardManager';
-import StoreManager from './shared/StoreManager';
+import Player from './shared/Player.js';
+import PlayerList from './shared/PlayerList.js';
+import Message from './shared/Message.js';
+import MessageList from './shared/MessageList.js';
+import RoomManager from './shared/RoomManager.js';
+import { ROOM_DEFINITIONS } from './shared/RoomDefinitions.js';
+import SpawnManager from './shared/SpawnManager.js';
+import LeaderboardManager from './shared/LeaderboardManager.js';
+import StoreManager from './shared/StoreManager.js';
 import walletService from './services/walletService.js';
 import UserWallet from './models/UserWallet.js';
 

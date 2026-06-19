@@ -1,4 +1,4 @@
-import PlayerProgression, { ProgressionData } from './PlayerProgression';
+import PlayerProgression, { ProgressionData } from './PlayerProgression.js';
 
 export interface PlayerData {
     id: string;

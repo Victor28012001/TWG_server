@@ -1,5 +1,5 @@
 // // shared/RoomManager.ts
-import { ROOM_DEFINITIONS } from './RoomDefinitions';
+import { ROOM_DEFINITIONS } from './RoomDefinitions.js';
 
 export interface Room {
     id: string;

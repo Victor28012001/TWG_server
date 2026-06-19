@@ -2,32 +2,29 @@
   "compilerOptions": {
     // Language and Environment
     "target": "ES2022",
-    "lib": ["ES2022"],
+    "lib": [
+      "ES2022"
+    ],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    
     // Modules
-    "module": "ESNext",
-    "moduleResolution": "bundler",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
     "allowImportingTsExtensions": false,
     "noEmit": false,
-    
     // IMPORTANT: Enable these for default imports
-    "esModuleInterop": true,     // ← Add this
-    "allowSyntheticDefaultImports": true,  // ← Add this
-    
+    "esModuleInterop": true, // ← Add this
+    "allowSyntheticDefaultImports": true, // ← Add this
     // Emit
     "outDir": "./dist",
     "rootDir": ".",
     "removeComments": true,
     "importHelpers": false,
     "sourceMap": true,
-    
     // Interop Constraints
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
-    
     // Type Checking
     "strict": false,
     "noImplicitAny": false,
@@ -45,14 +42,16 @@
     "noImplicitOverride": false,
     "allowUnusedLabels": true,
     "allowUnreachableCode": true,
-    
     // Completeness
     "skipLibCheck": true
   },
   "include": [
     "./**/*.ts",
-    "../shared/**/*.ts"
-, "config/database.js", "models/User.js", "services/balanceService.ts"  ],
+    "../shared/**/*.ts",
+    "config/database.ts",
+    "models/User.ts",
+    "services/balanceService.ts"
+  ],
   "exclude": [
     "node_modules",
     "dist",

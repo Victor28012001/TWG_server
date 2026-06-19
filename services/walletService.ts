@@ -3,7 +3,7 @@ import { Keypair, PublicKey, Connection, LAMPORTS_PER_SOL } from '@solana/web3.j
 import { getOrCreateAssociatedTokenAccount, createMintToInstruction } from '@solana/spl-token';
 import { Transaction } from '@solana/web3.js';
 import crypto from 'crypto';
-import UserWallet from '../models/UserWallet';
+import UserWallet from '../models/UserWallet.js';
 import dotenv from 'dotenv';
 dotenv.config();
 

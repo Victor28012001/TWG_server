@@ -150,8 +150,8 @@
 // export default new BalanceService();
 
 // server/services/balanceService.ts
-import UserWallet from '../models/UserWallet';
-import walletService from './walletService';
+import UserWallet from '../models/UserWallet.js';
+import walletService from './walletService.js';
 
 class BalanceService {
 
