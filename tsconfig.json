@@ -52,7 +52,7 @@
   "include": [
     "./**/*.ts",
     "../shared/**/*.ts"
-, "config/database.js", "models/User.js", "services/balanceService.js"  ],
+, "config/database.js", "models/User.js", "services/balanceService.ts"  ],
   "exclude": [
     "node_modules",
     "dist",
