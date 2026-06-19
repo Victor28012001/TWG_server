@@ -45,22 +45,18 @@
     // Completeness
     "skipLibCheck": true
   },
+  // "include": [
+  //   "./**/*.ts",
+  //   "../shared/**/*.ts",
+  //   "config/database.ts",
+  //   "models/User.ts",
+  //   "services/balanceService.ts"
+  // ],
   "include": [
-    "./**/*.ts",
-    "../shared/**/*.ts",
-    "config/database.ts",
-    "models/User.ts",
-    "services/balanceService.ts"
+    "**/*.ts"
   ],
   "exclude": [
     "node_modules",
     "dist",
-    "../client",
-    "../src",
-    "../android",
-    "../ios",
-    "../www",
-    "**/*.test.ts",
-    "**/*.spec.ts"
   ]
 }
