@@ -485,8 +485,8 @@ app.use(
             const allowed = [
                 "http://localhost:5173",
                 "http://localhost:5174",
-                "https://eloquence-overlay-kisser.ngrok-free.dev",
                 "https://toz-ctj2.vercel.app/",
+                "https://eloquence-overlay-kisser.ngrok-free.dev",
                 "capacitor://localhost",
             ];
             if (!origin || allowed.includes(origin)) {
@@ -1079,8 +1079,8 @@ const io = new Server(server, {
             "http://localhost:5173",
             "http://localhost:5000",
             "http://localhost:3000",
-            "https://eloquence-overlay-kisser.ngrok-free.dev",
             "https://toz-ctj2.vercel.app/",
+            "https://eloquence-overlay-kisser.ngrok-free.dev",
             "capacitor://localhost",
             "http://localhost",
             "http://10.0.2.2:3000",
