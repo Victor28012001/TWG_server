@@ -2,7 +2,7 @@
   "name": "the-winnowing-games-server",
   "version": "1.0.0",
   "type": "module",
-  "description": "The Winnowing Games - Multiplayer Game Server",
+  "description": "TOZ - Multiplayer Game Server",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch index.ts",
